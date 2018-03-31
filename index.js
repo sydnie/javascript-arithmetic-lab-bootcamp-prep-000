@@ -23,7 +23,8 @@ function dec(a) {
 }
 
 function makeInt(a, 10) {
-  if a==a.toString() {
+  a.toString() = a 
+  return 
     return a
   } else {
     return "NaN" 
