@@ -25,13 +25,11 @@ function dec(a) {
 function makeInt(a, 10) {
   if a==a.toString() {
     return a
-  } else if a
-  return a.toString();
-} else {
-  return "Nan";
-}
-
-
+  } else {
+    return "NaN" 
+  }
+  
+  
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
     expect(makeInt(a.toString())).toEqual(a)
