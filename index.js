@@ -22,7 +22,7 @@ function dec(a) {
   return --a;
 }
 
-function makeInt(a, "10") {
+function makeInt(a) {
   if (a==a.toString()) {
     return a;
   } else {
@@ -32,7 +32,7 @@ function makeInt(a, "10") {
   
 function perserveDecimal(a) {
   if (a==parseFloat(a)) {
-    return a
+    return a;
   }
 }
 
