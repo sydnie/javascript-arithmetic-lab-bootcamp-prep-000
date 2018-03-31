@@ -23,12 +23,10 @@ function dec(a) {
 }
 
 function makeInt(a, 10) {
-  a.toString() = a 
-  return 
-    return a
-  } else {
-    return "NaN" 
-  }
+  return a.toString()
+} else {
+  return "NaN"
+}
   
   
 describe('makeInt(n)', function() {
