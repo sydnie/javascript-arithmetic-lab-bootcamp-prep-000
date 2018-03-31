@@ -23,11 +23,7 @@ function dec(a) {
 }
 
 function makeInt(a) {
-  if (a==a.toString()) {
-    return a;
-  } else {
-    return "NaN";
-  }
+  return parseInt(sa)
 }
   
 function preserveDecimal(a) {
