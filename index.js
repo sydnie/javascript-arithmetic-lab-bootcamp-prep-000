@@ -22,7 +22,8 @@ function dec(a) {
   return --a;
 }
 
-function makeInt(a) {
+function makeInt(a, 10) {
+  if parseInt(a, 10)
   return parseInt(a, 10);
 } else {
   return NaN;
