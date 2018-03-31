@@ -30,7 +30,7 @@ function makeInt(a) {
   }
 }
   
-function perserveDecimal(a) {
+function preserveDecimal(a) {
   if (a==parseFloat(a)) {
     return a;
   }
