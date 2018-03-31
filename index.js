@@ -33,5 +33,6 @@ function makeInt(a, "10") {
 function perserveDecimal(a) {
   if (a==parseFloat(a)) {
     return a
-}  
+  }
+}
 
