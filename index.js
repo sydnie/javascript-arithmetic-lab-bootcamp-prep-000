@@ -22,7 +22,7 @@ function dec(a) {
   return --a;
 }
 
-function makeInt(a) {
+function makeInt(a, 10) {
   if (a==a.toString()) {
     return a;
   } else {
