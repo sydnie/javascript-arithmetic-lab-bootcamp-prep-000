@@ -27,6 +27,5 @@ function makeInt(a) {
 } else {
   return NaN
   }
-}
 
 
