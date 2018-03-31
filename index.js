@@ -22,12 +22,13 @@ function dec(a) {
   return --a;
 }
 
-function makeInt(a, 10) {
-  return a.toString()
-} else {
-  return "NaN"
+function makeInt(a) {
+  if a==a.toString() {
+    return a;
+  } else {
+    return "NaN";
+  }
 }
-  
   
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
