@@ -1,8 +1,12 @@
-function add() {
+function add(a, b) {
   a + b
 }
 
-function subtract() {
-  
+function subtract(a, b) {
+  a - b
+}
+
+function multiply(a, b) {
+  a*b
 }
 
